@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "keywords" content = "to do list">
+        <meta name = "description" content = "To do list application">
+        <meta name = "author" content = "Lynn Chen">
+        <meta name = "viewpoint" content = "width=device-width, inital-scale=1.0">
+        <title>To Do List</title>
+        <link rel = "stylesheet" href = "home.css">
+        <script src = "home.js"></script>
+    </head>
+   
+    <body>
+        <div class = "container">
+            <div class = header>
+                <div class = "left-header">
+                    <h1>My Day</h1>
+                    <div id = "date">
+                        <script>
+                            document.getElementById("date").innerHTML = new Date().toLocaleDateString();
+                        </script>
+                    </div>
+            <div class = "new-task">
+                <img class = "plus-icon" src = "plus.png" alt = "+">
+                <input class = "input" type = "text" placeholder="add a task here">
+            </div>
+            <div class = "todo-list">
+                <div class = "todo-item">
+                    <img class = "todo-icon" src = "circle.png" alt = "">
+                    <div class = "todo-content">
+                        <div class = "todo-text">be happier</div>
+                    </div>
+                    <img class = "star-icon" src = "star.png" alt = "">
+                </div>
+            </div>
+        <div class = "todo-template">
+            <div class = "todo-item">
+                <img class = "todo-icon" src = "circle.png" alt = "">
+                <div class = "todo-content">
+                    <div class = "todo-text">be happier</div>
+                </div>
+                <img class = "star-icon" src = "star.png" alt = "">
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,73 @@
+.plus-icon, .todo-icon, .star-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.todo-template{
+    display: none
+}
+
+/*to make the container in the center*/
+.container{ 
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.left-header #date{
+    font-size: small;
+}
+
+body{
+  color:#444;  
+}
+
+.new-task{
+    display: flex;
+}
+
+.input{
+    outline: none;
+    border: 0;
+    width: 300px;
+    position: relative;
+    left: 9px;
+    border-bottom: 1px solid #444;
+    font-size: medium;
+}
+
+.todo-item{
+    display: flex;
+}
+
+.todo-text{
+    border-bottom: 1px solid #444;
+    width: 304px;
+    font-size: medium;
+}
+
+.todo-content{
+    flex: 10;
+    padding-left: 10px;
+}
+
+.todo-icon{
+    display: flex;
+    align-items: center;
+}
+
+.star-icon{
+    display:flex;
+    align-items: center;
+}
